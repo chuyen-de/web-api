@@ -115,7 +115,7 @@ router.get('/', function(req, res, next) {
 			});
 });
 
-// createCourse()
+createCourse()
 
 function createCourse() {
 	Course.remove({}, function(err) {
